@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".monitor3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cac Loai Qua"
+        android:gravity="center"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/qua1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="qua tao"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/qua2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="qua cam"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/qua3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="qua le"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/qua4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="qua hong"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/qua5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="qua dao"
+        android:textSize="30sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/btnnext3"/>
+
+</LinearLayout>
